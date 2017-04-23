@@ -1,0 +1,33 @@
+Income tax Algorithm
+Flavio Leon	
+6.13.16
+
+#include<iostream>  //these are for my own memorization process sorry i need them here for now.
+#include<string>
+#incude<iomanip>
+#include<fstream>
+
+Declare and initialize variables and constant
+
+string name;
+float annual;
+float taxrate;
+float totaltaxowed;
+float taxrateDopple;
+
+Prompt for name
+Prompt for annual
+Input validation for annual cannot be less than zero.
+
+***Display report Income tax rate and total.*****
+
+Create ifs for calculations based on income tax brackets.
+
+<<name<<annual<<taxrate<<totaltaxowed;
+
+Append to output file taxes.txt with same variables.
+
+***************************************
+
+
+
