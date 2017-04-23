@@ -1,0 +1,42 @@
+Movie Theater Algorithm
+Flavio Leon	
+6.6.16
+
+#include<iostream>  //these are for my own memorization process sorry i need them here for now.
+#include<string>
+#incude<iomanip>
+
+
+Declare and initialize variables and constant
+
+string MovieName
+float AdultsSold
+float ChildSold
+float GrossBoxOffc=
+float NetBoxOffc=GrossBoxOffc*.25
+float AmtDistr=GrossBoxOffc*.75
+
+
+Prompt for movie name
+Prompt for adult tickets sold
+Prompt for child tickets sold
+
+***Display report Ticket Sales*****
+
+Movie name
+Adult tickets
+Child tickets
+
+Calculate child*6$+adults*9$=GrossBoxOffc
+Gross Profits
+
+Calculate Sum*.25=NetBoxOffc
+Net Profits
+
+Calculate GrossBoxOffc*.75=AmtDistr 
+Amount Paid to distributors
+
+***************************************
+
+
+
