@@ -1,0 +1,77 @@
+bankalg.txt
+For Bank Charges Classwork 3 C++ Ms.Levine
+Flavio Leon
+June 8, 2016
+
+
+Intro
+
+
+//Define variables and constants
+
+#include<iostream>
+#include<fstream>
+#include<iomanip>
+#include<string>
+
+string CustName
+int AcctNumb
+float BeginBalance
+float TotalWdraw
+float TotalDep
+int NumberChecks
+float CheckFee
+float MonthFee
+float EndBalance
+
+read from file balances.txt
+ifstream infile;
+
+infile.open ("balances.txt", ios::in); //in is used to read from files
+
+infile BeginBalance, TotalWdraw, TotalDep
+
+close file
+//Prompts
+
+Prompt for CustName
+Prompt for AcctNumb
+
+do
+{
+Prompt for NumberChecks
+
+Input validation for number of checks no NEgative values accepted.
+
+if (checks<0)
+	display invalid
+}
+while (checks < 0)
+
+Use selection structure to compute check fees.
+
+if (checks<20) 
+	fee=.10 per check
+else if (checks <= 39)
+	fee=.08 per check
+else if (checks<=59)
+	fee=.06 per check
+else
+	fee=.04 per check	
+
+
+
+Calculate ending balance.
+
+BeginBalance+TotalDep-TotalWdraw-CheckFee-MonthFee=EndBalance
+
+Display Results
+
+
+
+
+
+
+
+
+
